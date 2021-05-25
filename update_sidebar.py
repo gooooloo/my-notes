@@ -24,11 +24,12 @@ def main():
         x = md.split(sep)
         for i in range(1, len(x) + 1):
             y = tuple(x[:i])
-            if y not in extended_set:
+            if y != ('',) and y not in extended_set:
                 extended_set.add(y)
                 extended_list.append(y)
     
     with open("_sidebar.md", "w") as f:
+        print('- [首页](/)', file=f)
         for line in extended_list:
             x = ''
             for _ in range(0, len(line) - 2):

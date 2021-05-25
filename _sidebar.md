@@ -1,4 +1,4 @@
-- 
+- [首页](/)
 - HowTo
   - [iOS网页书签添加到桌面](/HowTo/iOS%E7%BD%91%E9%A1%B5%E4%B9%A6%E7%AD%BE%E6%B7%BB%E5%8A%A0%E5%88%B0%E6%A1%8C%E9%9D%A2.md)
   - [支付宝生活缴费取消户号](/HowTo/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%94%9F%E6%B4%BB%E7%BC%B4%E8%B4%B9%E5%8F%96%E6%B6%88%E6%88%B7%E5%8F%B7.md)
