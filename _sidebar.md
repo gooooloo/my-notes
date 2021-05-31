@@ -2,6 +2,24 @@
 - 杂
   - [北京儿童看病医院](/%E6%9D%82/%E5%8C%97%E4%BA%AC%E5%84%BF%E7%AB%A5%E7%9C%8B%E7%97%85%E5%8C%BB%E9%99%A2.md)
 - 编程
+  - C#
+    - [多参数 ValueTuple](/%E7%BC%96%E7%A8%8B/C%23/%E5%A4%9A%E5%8F%82%E6%95%B0%20ValueTuple.md)
+  - C++
+    - [-O0时 inline 函数的链接](/%E7%BC%96%E7%A8%8B/C%2B%2B/-O0%E6%97%B6%20inline%20%E5%87%BD%E6%95%B0%E7%9A%84%E9%93%BE%E6%8E%A5.md)
+    - [0.1 + 0.2 == 0.3](/%E7%BC%96%E7%A8%8B/C%2B%2B/0.1%20%2B%200.2%20%3D%3D%200.3.md)
+    - [Anonymous Union and Structure](/%E7%BC%96%E7%A8%8B/C%2B%2B/Anonymous%20Union%20and%20Structure.md)
+    - [Flexible array member in struct](/%E7%BC%96%E7%A8%8B/C%2B%2B/Flexible%20array%20member%20in%20struct.md)
+    - [Variable Length Arrays](/%E7%BC%96%E7%A8%8B/C%2B%2B/Variable%20Length%20Arrays.md)
+    - [lambda capture array](/%E7%BC%96%E7%A8%8B/C%2B%2B/lambda%20capture%20array.md)
+    - [lambda capture class member](/%E7%BC%96%E7%A8%8B/C%2B%2B/lambda%20capture%20class%20member.md)
+    - [一个 atof 的问题](/%E7%BC%96%E7%A8%8B/C%2B%2B/%E4%B8%80%E4%B8%AA%20atof%20%E7%9A%84%E9%97%AE%E9%A2%98.md)
+    - [一个vector reallocate引发的崩溃](/%E7%BC%96%E7%A8%8B/C%2B%2B/%E4%B8%80%E4%B8%AAvector%20reallocate%E5%BC%95%E5%8F%91%E7%9A%84%E5%B4%A9%E6%BA%83.md)
+    - [一个打印数组的技巧](/%E7%BC%96%E7%A8%8B/C%2B%2B/%E4%B8%80%E4%B8%AA%E6%89%93%E5%8D%B0%E6%95%B0%E7%BB%84%E7%9A%84%E6%8A%80%E5%B7%A7.md)
+    - [一个构造函数被调几次的问题](/%E7%BC%96%E7%A8%8B/C%2B%2B/%E4%B8%80%E4%B8%AA%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E8%A2%AB%E8%B0%83%E5%87%A0%E6%AC%A1%E7%9A%84%E9%97%AE%E9%A2%98.md)
+    - [一段 typeid 的汇编](/%E7%BC%96%E7%A8%8B/C%2B%2B/%E4%B8%80%E6%AE%B5%20typeid%20%E7%9A%84%E6%B1%87%E7%BC%96.md)
+    - [函数里的静态变量初始化的线程安全](/%E7%BC%96%E7%A8%8B/C%2B%2B/%E5%87%BD%E6%95%B0%E9%87%8C%E7%9A%84%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9A%84%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8.md)
+  - CV
+    - [一个关于 gamma 的笔记](/%E7%BC%96%E7%A8%8B/CV/%E4%B8%80%E4%B8%AA%E5%85%B3%E4%BA%8E%20gamma%20%E7%9A%84%E7%AC%94%E8%AE%B0.md)
   - 博客
     - [Docsify](/%E7%BC%96%E7%A8%8B/%E5%8D%9A%E5%AE%A2/Docsify.md)
   - 各种常用操作
