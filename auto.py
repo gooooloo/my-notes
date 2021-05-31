@@ -12,15 +12,19 @@ def docmd(cmd):
     os.system(cmd)
 
 
+def ingit(fn):
+    with open(fn, mode="r") as f:
+        firstline = f.readline()
+
+    return firstline == '#git\n'
+
+
 def auto_git_add():
     for fn in glob.glob(join('*', '**', '.gitignore'), recursive=True):
         os.remove(fn)
 
     for fn in glob.glob(join('*', '**', '*.md'), recursive=True):
-        with open(fn, mode="r") as f:
-            firstline = f.readline()
-
-        if firstline == '#git\n':
+        if ingit(fn):
             fn2 = fn.replace(' ', '\ ') 
             cmd = f"git add {fn2}"
             docmd(cmd)
@@ -40,7 +44,7 @@ def urlencode(s):
 
 
 def update_sidebar():
-    md_list = [abspath(fn) for fn in glob.glob(join('**', '*.md'), recursive=True) if not basename(fn).startswith('_') and basename(fn) != 'README.md']
+    md_list = [abspath(fn) for fn in glob.glob(join('**', '*.md'), recursive=True) if not basename(fn).startswith('_') and basename(fn) != 'README.md' and ingit(fn)]
 
     root_abs = abspath('.')
     assert all(md.startswith(root_abs) for md in md_list)
