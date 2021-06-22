@@ -3,6 +3,7 @@
   - [北京儿童看病医院](/%E6%9D%82/%E5%8C%97%E4%BA%AC%E5%84%BF%E7%AB%A5%E7%9C%8B%E7%97%85%E5%8C%BB%E9%99%A2.md)
 - 编程
   - C#
+    - [foreach + zip](/%E7%BC%96%E7%A8%8B/C%23/foreach%20%2B%20zip.md)
     - [多参数 ValueTuple](/%E7%BC%96%E7%A8%8B/C%23/%E5%A4%9A%E5%8F%82%E6%95%B0%20ValueTuple.md)
   - C++
     - [-O0时 inline 函数的链接](/%E7%BC%96%E7%A8%8B/C%2B%2B/-O0%E6%97%B6%20inline%20%E5%87%BD%E6%95%B0%E7%9A%84%E9%93%BE%E6%8E%A5.md)
@@ -20,10 +21,20 @@
     - [函数里的静态变量初始化的线程安全](/%E7%BC%96%E7%A8%8B/C%2B%2B/%E5%87%BD%E6%95%B0%E9%87%8C%E7%9A%84%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9A%84%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8.md)
   - CV
     - [一个关于 gamma 的笔记](/%E7%BC%96%E7%A8%8B/CV/%E4%B8%80%E4%B8%AA%E5%85%B3%E4%BA%8E%20gamma%20%E7%9A%84%E7%AC%94%E8%AE%B0.md)
+  - vim
+    - [看 vimrc 的位置](/%E7%BC%96%E7%A8%8B/vim/%E7%9C%8B%20vimrc%20%E7%9A%84%E4%BD%8D%E7%BD%AE.md)
   - 博客
     - [Docsify](/%E7%BC%96%E7%A8%8B/%E5%8D%9A%E5%AE%A2/Docsify.md)
   - 各种常用操作
     - git
       - [Ubuntu上装 git server](/%E7%BC%96%E7%A8%8B/%E5%90%84%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/git/Ubuntu%E4%B8%8A%E8%A3%85%20git%20server.md)
+      - [git status中文乱码](/%E7%BC%96%E7%A8%8B/%E5%90%84%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/git/git%20status%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81.md)
+      - [git track 到已有 branch](/%E7%BC%96%E7%A8%8B/%E5%90%84%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/git/git%20track%20%E5%88%B0%E5%B7%B2%E6%9C%89%20branch.md)
+      - [git 导致 oh-my-zsh 慢](/%E7%BC%96%E7%A8%8B/%E5%90%84%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/git/git%20%E5%AF%BC%E8%87%B4%20oh-my-zsh%20%E6%85%A2.md)
+      - [git 配置 beyond compare 当作 difftool mergetool](/%E7%BC%96%E7%A8%8B/%E5%90%84%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/git/git%20%E9%85%8D%E7%BD%AE%20beyond%20compare%20%E5%BD%93%E4%BD%9C%20difftool%20mergetool.md)
+      - [git常用操作](/%E7%BC%96%E7%A8%8B/%E5%90%84%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/git/git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.md)
       - [windows上git CRLF](/%E7%BC%96%E7%A8%8B/%E5%90%84%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/git/windows%E4%B8%8Agit%20CRLF.md)
       - [丢弃本地commit并同步到最新](/%E7%BC%96%E7%A8%8B/%E5%90%84%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/git/%E4%B8%A2%E5%BC%83%E6%9C%AC%E5%9C%B0commit%E5%B9%B6%E5%90%8C%E6%AD%A5%E5%88%B0%E6%9C%80%E6%96%B0.md)
+  - 编译原理
+    - [1 - 我对AST生成过程的理解](/%E7%BC%96%E7%A8%8B/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/1%20-%20%E6%88%91%E5%AF%B9AST%E7%94%9F%E6%88%90%E8%BF%87%E7%A8%8B%E7%9A%84%E7%90%86%E8%A7%A3.md)
+    - [2 - parsing的一些例子](/%E7%BC%96%E7%A8%8B/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/2%20-%20parsing%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BE%8B%E5%AD%90.md)

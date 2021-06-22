@@ -13,11 +13,14 @@ def docmd(cmd):
     os.system(cmd)
 
 
-def ingit(fn):
+def nogit(fn):
     with open(fn, mode="r") as f:
         firstline = f.readline()
 
-    return firstline == '#git\n'
+    return firstline == '#nogit\n'
+
+def ingit(fn):
+    return not nogit(fn)
 
 
 def auto_git_add():
@@ -94,12 +97,10 @@ def update_img():
             for line in sublines:
                 p = f'\(.*{postfix}\)'
                 x = re.search(p, line)
-                x= x.group()[1:-1]
-                x = join(dirname(md), x)
-                img_list.add(abspath(x))
-
-    for x in img_list:
-        print(x)
+                if x:
+                    x= x.group()[1:-1]
+                    x = join(dirname(md), x)
+                    img_list.add(abspath(x))
 
     all_img_list = set()
     for postfix in ('png', 'jpg', 'svg'):
@@ -111,7 +112,6 @@ def update_img():
             else:
                 gi = join(dirname(fn), '.gitignore')
                 with open(gi, 'a') as f:
-                    print(f'gitignore: {x}')
                     print(basename(x), file=f)
                 docmd(f'git add {gi}')
 

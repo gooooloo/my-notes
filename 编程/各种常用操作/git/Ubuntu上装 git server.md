@@ -1,5 +1,3 @@
-#git
-
 # `Ubuntu` 上装 `git` `server`
 
 0. 参考资料 https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server
@@ -7,7 +5,7 @@
 	1. `sudo apt install openssh-server`
 	2. `sudo service ssh start`
 2. 创建一个 `repo` 的专用 `Ubuntu` `user`
-	
+
 	1. `sudo adduser myuser`
 3. 在该 `user` 里为允许的 `client` 机器配置 `ssh` 权限
 	1. `su myuser`
@@ -22,5 +20,5 @@
 6. 为了安全，还可以在 `~/.ssh/authorized_keys` 里限制**每一个** `client` 的行为
 	```
 	no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty
-	公钥1
+	公钥 1
 	```
