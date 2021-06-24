@@ -1,9 +1,15 @@
 - [首页](/)
+- 人文类笔记
+  - 心理
+    - [读《非暴力沟通》](/%E4%BA%BA%E6%96%87%E7%B1%BB%E7%AC%94%E8%AE%B0/%E5%BF%83%E7%90%86/%E8%AF%BB%E3%80%8A%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A%E3%80%8B.md)
 - 杂
   - [北京儿童看病医院](/%E6%9D%82/%E5%8C%97%E4%BA%AC%E5%84%BF%E7%AB%A5%E7%9C%8B%E7%97%85%E5%8C%BB%E9%99%A2.md)
+  - [欧拉公式](/%E6%9D%82/%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F.md)
 - 编程
   - C#
     - [foreach + zip](/%E7%BC%96%E7%A8%8B/C%23/foreach%20%2B%20zip.md)
+    - [foreach 带 index](/%E7%BC%96%E7%A8%8B/C%23/foreach%20%E5%B8%A6%20index.md)
+    - [一次用 dotTrace profiling 的过程](/%E7%BC%96%E7%A8%8B/C%23/%E4%B8%80%E6%AC%A1%E7%94%A8%20dotTrace%20profiling%20%E7%9A%84%E8%BF%87%E7%A8%8B.md)
     - [多参数 ValueTuple](/%E7%BC%96%E7%A8%8B/C%23/%E5%A4%9A%E5%8F%82%E6%95%B0%20ValueTuple.md)
   - C++
     - [-O0时 inline 函数的链接](/%E7%BC%96%E7%A8%8B/C%2B%2B/-O0%E6%97%B6%20inline%20%E5%87%BD%E6%95%B0%E7%9A%84%E9%93%BE%E6%8E%A5.md)
@@ -21,7 +27,17 @@
     - [函数里的静态变量初始化的线程安全](/%E7%BC%96%E7%A8%8B/C%2B%2B/%E5%87%BD%E6%95%B0%E9%87%8C%E7%9A%84%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9A%84%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8.md)
   - CV
     - [一个关于 gamma 的笔记](/%E7%BC%96%E7%A8%8B/CV/%E4%B8%80%E4%B8%AA%E5%85%B3%E4%BA%8E%20gamma%20%E7%9A%84%E7%AC%94%E8%AE%B0.md)
+  - DevOps
+    - [Azure Pipeline](/%E7%BC%96%E7%A8%8B/DevOps/Azure%20Pipeline.md)
+    - [Cron Syntax](/%E7%BC%96%E7%A8%8B/DevOps/Cron%20Syntax.md)
+    - [devops adhoc](/%E7%BC%96%E7%A8%8B/DevOps/devops%20adhoc.md)
+    - [devops wikipedia](/%E7%BC%96%E7%A8%8B/DevOps/devops%20wikipedia.md)
+  - IDE
+    - [JetBrains](/%E7%BC%96%E7%A8%8B/IDE/JetBrains.md)
+  - Node
+    - [vsts-npm-auth 失败](/%E7%BC%96%E7%A8%8B/Node/vsts-npm-auth%20%E5%A4%B1%E8%B4%A5.md)
   - vim
+    - [buffer-window-tab](/%E7%BC%96%E7%A8%8B/vim/buffer-window-tab.md)
     - [看 vimrc 的位置](/%E7%BC%96%E7%A8%8B/vim/%E7%9C%8B%20vimrc%20%E7%9A%84%E4%BD%8D%E7%BD%AE.md)
   - 博客
     - [Docsify](/%E7%BC%96%E7%A8%8B/%E5%8D%9A%E5%AE%A2/Docsify.md)
@@ -38,3 +54,4 @@
   - 编译原理
     - [1 - 我对AST生成过程的理解](/%E7%BC%96%E7%A8%8B/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/1%20-%20%E6%88%91%E5%AF%B9AST%E7%94%9F%E6%88%90%E8%BF%87%E7%A8%8B%E7%9A%84%E7%90%86%E8%A7%A3.md)
     - [2 - parsing的一些例子](/%E7%BC%96%E7%A8%8B/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/2%20-%20parsing%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BE%8B%E5%AD%90.md)
+    - [3 - 我对语义分析的一些笔记](/%E7%BC%96%E7%A8%8B/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/3%20-%20%E6%88%91%E5%AF%B9%E8%AF%AD%E4%B9%89%E5%88%86%E6%9E%90%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0.md)

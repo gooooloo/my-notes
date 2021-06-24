@@ -86,7 +86,7 @@ def update_sidebar():
     docmd('git add _sidebar.md')
 
 
-def update_img():
+def get_used_imgs_in_git():
     img_list = set()
     md_list = [abspath(fn) for fn in glob.glob(join('**', '*.md'), recursive=True) if not basename(fn).startswith('_') and basename(fn) != 'README.md' and ingit(fn)]
     for md in md_list:
@@ -101,8 +101,12 @@ def update_img():
                     x= x.group()[1:-1]
                     x = join(dirname(md), x)
                     img_list.add(abspath(x))
+    return img_list
 
-    all_img_list = set()
+
+def update_img():
+    img_list = get_used_imgs_in_git()
+
     for postfix in ('png', 'jpg', 'svg'):
         for fn in glob.glob(join('**', f'*.{postfix}')):
             x = abspath(fn)
